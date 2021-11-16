@@ -63,8 +63,15 @@
 
 .card {
   padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+.even-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /*----------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
