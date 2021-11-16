@@ -99,6 +99,39 @@
   height: 40%;
 }
 
+.event-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-presentation1 {
+  width: 400px;
+  height: 250px;
+}
+
+.event-presentation2 {
+   width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.event-presentation3 {
+  background-color: red;
+  width: 600px;
+  height: 250px;
+}
+
+.event-header-text {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 
 /*----------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
