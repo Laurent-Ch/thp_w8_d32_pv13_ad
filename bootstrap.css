@@ -73,6 +73,25 @@
   justify-content: center;
 }
 
+.comment-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-picture {
+  border-radius: 50%;
+}
+
+.comment-content {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  height: 40%;
+  object-fit: cover;
+}
+
 /*----------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 :root {
